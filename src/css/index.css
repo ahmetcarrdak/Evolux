@@ -1,0 +1,60 @@
+:root {
+    /* Arkaplan Rengi */
+    --background-color: #f5f5f5;
+
+    /* Yazı Rengi */
+    --text-color: #333333;
+
+    /* Bildirim Renkleri */
+    --error-color: #f44336;
+    --info-color: #2196f3;
+    --warning-color: #ff9800;
+    --success-color: #4caf50;
+
+    /* Buton Renkleri */
+    --button-primary: #2196f3;
+    --button-secondary: #4caf50;
+    --button-tertiary: #9e9e9e;
+
+    /* Menü Arkaplanı (Glass Morphism) */
+    --menu-background: rgba(128, 0, 128, 0.2);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button.primary {
+    background-color: var(--button-primary);
+}
+
+button.secondary {
+    background-color: var(--button-secondary);
+}
+
+button.tertiary {
+    background-color: var(--button-tertiary);
+}
+
+/* Bildirimler */
+.error {
+    color: var(--error-color);
+}
+
+.info {
+    color: var(--info-color);
+}
+
+.warning {
+    color: var(--warning-color);
+}
+
+.success {
+    color: var(--success-color);
+}
+
+/* Menü */
+.menu {
+    background-color: var(--menu-background);
+}
