@@ -17,12 +17,21 @@
     --button-tertiary: #9e9e9e;
 
     /* Menü Arkaplanı (Glass Morphism) */
-    --menu-background: rgba(128, 0, 128, 0.2);
+    --menu-background: #00313b;
+    --menu-item-container-background: #004e5e;
+    --menu-text: #dfe3e1;
 }
 
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
 }
 
 button.primary {
@@ -57,4 +66,9 @@ button.tertiary {
 /* Menü */
 .menu {
     background-color: var(--menu-background);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
 }
